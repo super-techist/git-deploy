@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+ - export DEPLOYPATH=/home/nigel8xu/public_html/repositories/git-deploy
+ - /bin/cp git-pull.txt $DEPLOYPATH
